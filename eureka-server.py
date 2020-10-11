@@ -3,10 +3,6 @@ import os
 
 
 path = 'eureka-server'
-#check directory: eureka-server
-#if not exist : git clone
-#if exist: cd eureka-server\n git clone
-
 
 def mvn_C(): #mvn packge build function
    
