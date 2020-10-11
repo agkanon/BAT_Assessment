@@ -14,7 +14,7 @@ git
 
 #Step 2
 
-Create project directory Clone the python project from github to project directory git clone (command) change the permission python script chmod +x script_name
+Create project directory Clone the python project from github to project directory git clone (git clone https://github.com/agkanon143/BAT_Assessment.git) change the permission python script chmod +x script_name
 
 #Step 3
 
