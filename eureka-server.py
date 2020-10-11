@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import os
 
-
 path = 'eureka-server'
 
 def mvn_C(): #mvn packge build function
@@ -25,7 +24,7 @@ def doc_I(): #Docker image build function
    os.system("docker rmi agkanon/eureka-server:latest")
    os.system("docker pull agkanon/eureka-server:latest")
    os.system("docker run --network devops-net --name eureka-server -p 8761:8761 -d agkanon/eureka-server:latest")
-   os.system("docker logs eureka-server >> eureka-server.log")
+   os.system("echo Welcome to Spring eureka UI on http://localhost:8761")
 
 if not os.path.exists(path):
    os.system("git clone https://github.com/a2z-ice/eureka-server.git")
